@@ -1,7 +1,7 @@
 {
 
     "name": "oat/awesomeExtension",
-    "description" : "Tone\'s awesome extension",
+    "description" : "Tone's awesome extension",
     "type" : "tao-extension",
     "authors" : [
         {
