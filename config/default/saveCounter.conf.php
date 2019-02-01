@@ -1,3 +1,3 @@
 <?php
 
-return new \awesomeExtension\model\SaveCounterService();
+return new \oat\awesomeExtension\model\SaveCounterService();
