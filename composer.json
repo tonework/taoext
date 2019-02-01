@@ -1,6 +1,6 @@
 {
 
-    "name": "oat/awesomeExtension",
+    "name": "tonework/taoext",
     "description" : "Tone's awesome extension",
     "type" : "tao-extension",
     "authors" : [
