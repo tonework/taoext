@@ -7,7 +7,7 @@ use oat\oatbox\service\ConfigurableService;
 class SaveCounterService extends ConfigurableService {
   const SERVICE_ID = 'awesomeExtension/saveCounter';
 
-  pubic function onItemUpdate(ItemUpdateEvent $event) {
+  public function onItemUpdate($event) {
     $this->logDebug('Item has been update');
   }
 }
