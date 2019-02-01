@@ -27,7 +27,7 @@ return array(
     'label' => 'awesome-extension',
     'description' => 'Tone\'s awesome extension',
     'license' => 'GPL-2.0',
-    'version' => '0.0.1',
+    'version' => '0.0.2',
     'author' => 'Tone',
     'requires' => array(
         'tao' => '>=24.3.0'
@@ -46,6 +46,7 @@ return array(
     ),
     'uninstall' => array(
     ),
+    'update' => \oat\awesomeExtension\scripts\update\Updater::class,
     'routes' => array(
         '/awesomeExtension' => 'oat\\awesomeExtension\\controller'
     ),    
