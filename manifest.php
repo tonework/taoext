@@ -38,7 +38,7 @@ return array(
     ),
     'install' => array(
         'php' => array(
-            \oat\aweseomeExtension\scripts\install\RegisterItemUpdateEvent::class,
+            \oat\awesomeExtension\scripts\install\RegisterItemUpdateEvent::class,
         ),
        'rdf' => array(
             dirname(__FILE__). '/rdfs/SomeCount.rdf'
